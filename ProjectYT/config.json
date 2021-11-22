@@ -1,0 +1,10 @@
+
+{
+    "PRESENT_ADDRESS": "tcp://127.0.0.1:11616",
+    "QUERY_STRING": "telecom",
+    "NEW_STRING": "telco",
+    "RESULTS_OF_VIDEOS": "5",
+    "YT_PROPERTIES_FILENAME": "youtube.properties",
+    "QUEUE_A": "YouTube Queue A",
+    "QUEUE_B": "YouTube Queue B"
+}

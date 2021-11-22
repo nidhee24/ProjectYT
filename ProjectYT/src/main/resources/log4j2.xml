@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-23d{YYYY/MM/dd HH:mm:ss.SS} %-5p %c{1} - %m%n"/>
+        </Console>
+        <File  name="FILE" fileName="ProjectYT.log">
+            <PatternLayout pattern="%-23d{YYYY/MM/dd HH:mm:ss.SS} %-5p %c{1} - %m%n"/>
+        </File>
+        <Async name="ASYNC">
+            <AppenderRef ref="FILE"/>
+            <AppenderRef ref="CONSOLE"/>
+        </Async>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ASYNC"/>
+        </Root>
+    </Loggers>
+</Configuration>

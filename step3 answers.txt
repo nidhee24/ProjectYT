@@ -1,0 +1,13 @@
+* Which design patterns have you used for configurations?
+-> JMS factory is used to send data of xml file from one queue to another using jmsproducer and jmsconsumer.
+-> ConsumerImplementation and ProducerImplementation used for brigding sending and receiving messages between queues.
+-> searchyoutubevideo is used to fetch video and count the number of videos with specific keyword mentioned.
+
+* How to compile source code?
+-> mvn clean install
+
+* How to execute programs?
+-> console 1: .\start_broker.bat
+-> console 2: .\start_consumer.bat
+-> console 3: .\start_producer.bat
+
